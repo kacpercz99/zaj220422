@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad 11</title>
+    <link rel="stylesheet" href="zad11.css">
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Szczegóły konta</legend>
+        <br>
+        <label for="name" class="szcz">Imie:</label>
+        <input type="text" id="name" name="name" class="szcz" required>
+        <br><br>
+        <label for="surname" class="szcz">Nazwisko:</label>
+        <input type="text" id="surname" name="surname" class="szcz" required>
+        <br><br>
+        <label for="email" class="szcz">Email:</label>
+        <input type="email" id="email" name="email" class="szcz" required>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Kilka informacji o Tobie:</legend>
+        <br>
+        <label>Jak się o nas dowiedziałeś?
+            <select name="from_where_do_you_know_about_us">
+                <option selected>z Google</option>
+                <option>od przyjaciół</option>
+                <option>z Facebooka</option>
+                <option>z Twittera</option>
+                <option>wiadomość e-mail</option>
+            </select>
+        </label><br>
+        <p>Czy odwiedzisz nas ponownie?
+            <input type="radio" id="tak" name="will_you_visit_us_again" value="tak" required>
+            <label for="tak">Tak</label>
+            <input type="radio" id="nie" name="will_you_visit_us_again" value="nie" required>
+            <label for="nie">Nie</label>
+        </p>
+        <label for="o_mnie" class="omnie">Komentarz:</label>
+        <textarea id="o_mnie"></textarea>
+        <br><br>
+        <input type="checkbox" id="chce" name="i_want_to_be_notified_about_updates" value="chce" checked>
+        <label for="chce">Chcę być informowany o aktualizacjach</label><br>
+        <p id="submission"><input type="submit" value="Prześlij informacje"></p>
+    </fieldset>
+</form>
+</body>
+</html>

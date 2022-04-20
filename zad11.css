@@ -1,0 +1,34 @@
+form {
+    background: #FFFFCC;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+fieldset {
+    border: none;
+}
+legend {
+    font-size: 24px;
+}
+label.szcz{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+label.omnie{
+    vertical-align: top;
+}
+textarea {
+    height:50px;
+    width: 80%;
+    resize: none;
+}
+#submission {
+    text-align: center;
+}
+input[type=submit] {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    box-shadow: gray 2px 2px;
+}
